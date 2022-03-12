@@ -27,6 +27,7 @@ public class HumanBeing {
 		HumanBeing obj1 = new HumanBeing();
 		HumanBeing obj2 = obj;
 		
+		
 		obj1.humanBeingWatchTV();
 		obj1.humenBeingEatsFood();
 		
