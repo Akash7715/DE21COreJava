@@ -5,7 +5,7 @@ public class VeriableTypeClass {
 	int age = 18;
 	float height;	
 	
-	static int abcd ;
+	static int abcd = 65;
 	
 
 	public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class VeriableTypeClass {
 		System.out.println(c);
 		System.out.println(name);
 		System.out.println(obj.name);
-//		System.out.println(obj.c);
+	System.out.println(obj.c);
 
 	}
 	
@@ -43,6 +43,7 @@ public class VeriableTypeClass {
 		int a = 90;
 		int b = 67;	
 		int c;
+		
 		System.out.println(c);
 		 c = a +b;
 		
