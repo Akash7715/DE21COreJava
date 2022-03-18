@@ -9,15 +9,13 @@ public class ArithmaticOperatos {
 		byte b = 7;
 		byte tt = 76;
 		float x = 55.45f;
-		float y = 12.50f;
-		
+		float y = 12.50f;		
 		
 		float j = x%y;
 		System.out.println(j);
 		
 		int i = a%b;
-		System.out.println(i);
-		
+		System.out.println(i);		
 		
 		float h = a/x;
 		System.out.println(h);
