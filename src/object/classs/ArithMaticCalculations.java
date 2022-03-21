@@ -5,16 +5,16 @@ public class ArithMaticCalculations {
 	int a = 90;
 	int b = 89;
 	
-	public static void addition()
+	public  void addition()
 	{
-		int c = 34+67;
+		int c = a+b;
 		System.out.println(c);
 		
 	}
 	
-	public static void substraction()
+	public  void substraction()
 	{
-		int c = 55-44;
+		int c = a-b;
 		System.out.println(c);
 	}
 

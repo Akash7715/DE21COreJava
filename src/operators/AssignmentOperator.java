@@ -35,7 +35,7 @@ public class AssignmentOperator {
 		b-=4; // b = b-4;
 		System.out.println(b);
 		
-		a+=23; // a = a+b;
+		a+=b; // a = a+b;
 		System.out.println(a);
 		System.out.println(b);
 		
