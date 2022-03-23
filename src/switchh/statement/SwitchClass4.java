@@ -19,7 +19,6 @@ public class SwitchClass4 {
 	}
 	
 	
-	
 	public static void getBookPrice(String bookName, int std)
 	{
 switch (bookName) {

@@ -1,9 +1,15 @@
 package arrays;
 
+import java.util.Arrays;
+
+import data.types.*;
+
+
 public class ArraysClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+	
 		
 		int a =89;
 		int b = 89;
@@ -16,6 +22,15 @@ public class ArraysClass {
 		int arr[] = {34,2,5,67};
 		int arr1[] = {34,2,5,67};
 		int arr2[] = arr;
+		
+		int lng = arr.length;
+		System.out.println(lng);
+		
+		Arrays.sort(arr1);
+		
+		
+		boolean f5 = Arrays.equals(arr, arr1);
+		System.out.println(f5);
 		
 		boolean f3 = arr[1] == arr1[1];
 		System.out.println(f3);
