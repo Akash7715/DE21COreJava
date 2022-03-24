@@ -9,6 +9,7 @@ public class TwoDimentionalArray {
 		int a = arr1[2];
 
 		int arr[][] = {{45,3},{56,44,78,89,90},{78,34}};
+		
 		int arr2[][] = {{45,3},{56,44},{78,34}};
 		
 		int ap[][][] = {{{45,3},{56,44},{78,34}},{{45,3},{56,44,78,89,90},{78,34}}};
@@ -28,7 +29,7 @@ public class TwoDimentionalArray {
 		int lng = arr.length;
 		System.out.println(lng);
 		
-		int lng1 = arr[0].length;
+		int lng1 = arr[1].length;
 		System.out.println(lng1);
 
 	}
