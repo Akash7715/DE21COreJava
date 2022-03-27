@@ -22,7 +22,7 @@ public class ReturnTypesClass3 {
 		return c;
 		
 	}
-	// Mthod with other than void return type must have return statement
+	// Method with other than void return type must have return statement
 	public int sampleNonStaticMethod1()
 	{
 		int  c = a +b;

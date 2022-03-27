@@ -9,6 +9,7 @@ public class SccopeClass {
 	{
 		System.out.println(b);
 		System.out.println(a);
+		
 		int aa = 89;
 		
 		if (a>50)
