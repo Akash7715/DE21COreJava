@@ -38,7 +38,7 @@ public class ConstInvoke {
 	}
 	public void sampleMethod()
 	{
-		
+		this();
 	}
 	
 

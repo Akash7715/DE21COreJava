@@ -45,7 +45,7 @@ public class CurrentClassInstanceVariable {
 		System.out.println(b);
 		System.out.println(oo.a);
 		System.out.println(b);
-		//System.out.println(this.a);
+		System.out.println(this.a);
 
 	}
 
