@@ -16,6 +16,7 @@ public class ThisAsArgumentInConstructor {
 	}
 
 	public ThisAsArgumentInConstructor(int a) {
+		
 	}
 
 	public static void main(String[] args) {

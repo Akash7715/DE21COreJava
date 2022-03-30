@@ -1,6 +1,10 @@
 package inheritance;
 
 public class C extends B{
+	public C()
+	{
+		System.out.println("This is C class default constructor");
+	}
 
 	int cc = 89;
 	static int stCC = 66;
@@ -20,6 +24,8 @@ public class C extends B{
 	}
 	
 	public static void main(String[] args) {		
+		
+		B ob = new B();
 		
 		C co = new C();		
 		System.out.println(co.aa);

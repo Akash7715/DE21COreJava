@@ -1,6 +1,11 @@
 package inheritance;
 
 public class A {
+	
+	public A()
+	{
+		System.out.println("This is A class default constructor");
+	}
 
 	int aa = 89;
 	static int stAA = 66;

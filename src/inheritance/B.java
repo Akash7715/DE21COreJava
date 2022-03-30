@@ -1,6 +1,10 @@
 package inheritance;
 
 public class B extends A {
+	public B()
+	{
+		System.out.println("This is B class default constructor");
+	}
 
 	int bb = 23;
 	static int stBB = 22;
