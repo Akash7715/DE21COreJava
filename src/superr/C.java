@@ -1,6 +1,6 @@
 package superr;
 
-public class C {
+public class C extends B{
 
 	public C(int a) {
 		// TODO Auto-generated constructor stub
@@ -15,6 +15,7 @@ public class C {
 	public void sm()
 	{
 		System.out.println("sample method");
+		System.out.println(super.abc);
 	}
 	
 }

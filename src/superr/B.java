@@ -18,14 +18,14 @@ public static void main(String[] args) {
 	
 	public B(float r)
 	{
-		super(2);
+		super(34);
 		System.out.println("This is parameterised B class constructor");
 		
 	}
 	
 	public B()
 	{
-		super(45);
+		super(34);
 		System.out.println("Default constructor of B ");
 	}
 	
@@ -44,7 +44,7 @@ public static void main(String[] args) {
 		int x = abc;
 		System.out.println(abc);
 		super.staticMethod();
-		nonStaticMethod();		
+		super.nonStaticMethod();		
 		C obj = new C(abc);
 		
 		

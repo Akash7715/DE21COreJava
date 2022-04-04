@@ -4,7 +4,7 @@ public class B extends A{
 
 	int aa = 450;
 	static int stAA = 550;
-	
+	@Override
 	public void addition(int v)
 	{
 		System.out.println("This is addition method from B");
