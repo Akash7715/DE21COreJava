@@ -29,12 +29,12 @@ public class SBI implements RBI, BRICKS{
 	   RBI.staticMethodFromInterFaceWithBody();
 	   
 	   // SBI class can not call static method from parent interface. But, it is possible in case of classes
-	   SBI.staticMethodFromInterFaceWithBody();
+	  SBI.staticMethodFromInterFaceWithBody();
 	   
 	   SBI.defaultMethodFromInterface();
-	   
+	   int a = 56;
 	   RBI oo = new SBI();
-	   
+	  // oo.PQR = 809;
 	   oo.defaultMethodFromInterface();
 	   
 	   System.out.println(oo.ABC);
@@ -45,7 +45,8 @@ public class SBI implements RBI, BRICKS{
 	   
 	
 	   SBI obj = new SBI();
-	   
+	   obj.PQR = 67;
+	   obj.ABC = 3434;
 	   obj.defaultMethodFromInterface();
 	   System.out.println(obj.ABC);		  
 	   System.out.println(obj.PQR);	   
@@ -74,6 +75,7 @@ public void duplicateMethod() {
 	System.out.println("SBI has provided implementation of duplicate method");
 	
 }
+
 
 
 

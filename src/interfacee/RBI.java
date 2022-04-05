@@ -18,5 +18,7 @@ public interface RBI extends WorldBank{
 	{
 		System.out.println("default Method From Interface");
 	}
+	
+	
 		
 }
