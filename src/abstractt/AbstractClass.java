@@ -1,7 +1,7 @@
 package abstractt;
 
 public abstract class AbstractClass extends ABClass{
-	int abc = 78;
+	 int abc = 78;
 	static int bcd = 34;
 	public final static int PQRS = 45;
 
