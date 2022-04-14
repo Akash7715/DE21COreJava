@@ -9,7 +9,7 @@ public class UncheckedException {
 		
 		int arr[] = {23,45,67,78,34};
 		
-		String str ="1234";
+		String str ="1234trf";
 	
 		int a=56;
 		int b =0;
