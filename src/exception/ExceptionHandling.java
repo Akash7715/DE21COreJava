@@ -15,7 +15,7 @@ public class ExceptionHandling {
 		 System.out.println(Integer.parseInt(data));
 		 System.out.println("Inside try block after arithmatic operation");
 		}		
-		catch (Exception e) {
+		catch (ArithmeticException e) {
 			
 			c = a;
 			
