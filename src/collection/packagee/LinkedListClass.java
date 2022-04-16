@@ -2,13 +2,13 @@ package collection.packagee;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
-public class ArrayListClass {
+public class LinkedListClass {
 
-	public static void main(String[] args) {		
-
-		ArrayList<Integer> data = new ArrayList<>();
-
+	public static void main(String[] args) {
+  List<Integer> data = new LinkedList<>();	
 		Integer a = new Integer(23);
 		Integer b = new Integer(33);
 		data.add(a);
@@ -50,8 +50,5 @@ public class ArrayListClass {
 		
 
 	}
-	
-	
-	
 
 }

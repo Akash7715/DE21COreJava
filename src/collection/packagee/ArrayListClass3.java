@@ -2,12 +2,13 @@ package collection.packagee;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayListClass3 {
 
 	public static void main(String[] args) {		
 
-		ArrayList<Student> data = new ArrayList<>();
+		List<Student> data = new ArrayList<>();
 		
 		Student st1 = new Student(2, "Amit");
 		
@@ -16,6 +17,7 @@ public class ArrayListClass3 {
 		data.add(st2);
 		data.add(st1);
 		data.add(new Student(5, "Sanket"));
+		
 		
 		Student ss = data.get(0);
 		ss.displayeStudentInfo();
