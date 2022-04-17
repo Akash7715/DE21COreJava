@@ -2,6 +2,7 @@ package collection.packagee;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListClass3 {
@@ -16,17 +17,20 @@ public class ArrayListClass3 {
 		
 		data.add(st2);
 		data.add(st1);
-		data.add(new Student(5, "Sanket"));
-		
-		
+		data.add(new Student(5, "Sanket"));		
 		Student ss = data.get(0);
-		ss.displayeStudentInfo();
+		ss.displayeStudentInfo();		
+		System.out.println(data);		
+		Iterator<Student> itr = data.iterator();
 		
-		System.out.println(data);
+		while(itr.hasNext())
+		{
+			Student temp = itr.next();
+			System.out.println(temp.name);
+		}
 		
 	}
-	
-	
+
 	
 
 }

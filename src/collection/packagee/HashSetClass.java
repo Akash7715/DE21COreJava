@@ -2,6 +2,7 @@ package collection.packagee;
 
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class HashSetClass {
 
@@ -21,7 +22,14 @@ public class HashSetClass {
 		dd.remove(a);
 		dd.add(null);
 		dd.add(null);
-		System.out.println(dd.size());		
+		System.out.println(dd.size());	
+		
+		Iterator<Integer> itr = dd.iterator();
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		
 		for (Integer each:dd)
 		{
 			System.out.println(each);

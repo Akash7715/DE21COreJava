@@ -16,7 +16,7 @@ public class TreeSetClass {
 		dd.add(new Integer(560));
 		dd.add(34);
 		System.out.println(dd);
-		dd.remove(a);
+		dd.remove(a);		
 		System.out.println(dd.size());		
 		for (Integer each:dd)
 		{
